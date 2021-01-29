@@ -13,9 +13,10 @@
   (println :after-all))     ; same as (js/console.log ...)
 
 (defn sample []
-  (set! js/newVar 3)
+  (set! js/newVar 3) ; create a global JS variable
   (println :js/newVar js/newVar)
-  (println :voca (voca/camelCase "foo bar"))
+
+  (println :voca (voca/camelCase "foo bar")) ; call npm lib function
   )
 
 (defn ^:export init [] ; shadow will call upon initial load only
