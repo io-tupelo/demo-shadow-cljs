@@ -15,6 +15,7 @@
 (defn ^:export init [] ; shadow will call upon initial load only
   (js/console.log "init - enter again")
   (println "Hello World")
+  (set! (.. js/document (getElementById "app-target") -innerHTML) "Hello, Document!")
   (js/console.log "init - leave")
   )
 
