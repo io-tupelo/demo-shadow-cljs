@@ -6,6 +6,7 @@
     "shadow-cljs": "2.11.15"
   },
   "dependencies": {
-    "highcharts": "^8.2.2"
+    "highcharts": "^8.2.2",
+    "voca": "^1.4.0"
   }
 }
