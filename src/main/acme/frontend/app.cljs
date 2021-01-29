@@ -1,9 +1,13 @@
 (ns acme.frontend.app
-  (:require ["voca" :as voca])) ;use npm lib after `npm install voca`
+  (:require
+    [tupelo.core :as t]
+    ["voca" :as voca]
+    )) ; use npm lib after `npm install voca`
 
 (enable-console-print!)
 
-(js/console.log "#app02")
+(js/console.log "#app06")
+(t/spy (keyword "#app07"))
 
 ; these are not called for the initial load, only subsequent loads
 (defn ^:dev/before-load before []
