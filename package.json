@@ -5,5 +5,7 @@
   "devDependencies": {
     "shadow-cljs": "2.11.15"
   },
-  "dependencies": {}
+  "dependencies": {
+    "highcharts": "^8.2.2"
+  }
 }
