@@ -37,3 +37,4 @@ package-lock.json
 pom.xml
 pom.xml.asc
 tags
+.shadow-cljs
